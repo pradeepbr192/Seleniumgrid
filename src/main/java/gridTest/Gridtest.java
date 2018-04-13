@@ -13,8 +13,7 @@ public class Gridtest {
 
 	public static void main(String[] args) throws MalformedURLException {
 		
-	//Set the desired capabilities for the nodes
-		
+	//Set the desired capabilities for the nodes.
 	DesiredCapabilities descap = new DesiredCapabilities();
 	descap.setBrowserName("chrome");;
 	descap.setPlatform(Platform.WIN10);
